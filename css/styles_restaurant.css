@@ -1,0 +1,101 @@
+.bb {
+    position: absolute;
+    margin-top: 0%;
+    margin-right: 66.55%;
+    margin-bottom: 66.67%;
+    font-size: 50px;
+    top: 0%;
+    left: 0;
+    border: 20px;
+    border-style: solid;
+    border-color: black;
+    padding: 68px 68px 68px 68px;
+}
+
+.bb:hover {
+    color: transparent;
+    background-image: url(baskin-robins.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.ccd {
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 66.7%;
+    margin-bottom: 66.6%;
+    font-size: 50px;
+    top: 0%;
+    right: 0%;
+    border: 20px;
+    border-style: solid;
+    border-color: black;
+    padding: 68px 65px 68px 68px;
+}
+
+.ccd:hover {
+    color: transparent;
+    background-image: url(ccd.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.fc {
+    position: absolute;
+    font-size: 50px;
+    top: 31.5%;
+    left: 33.39%;
+    border: 20.5px;
+    border-style: solid;
+    border-color: black;
+    padding: 70px 114px 70px 114px;
+}
+
+.fc:hover {
+    color: transparent;
+    background-image: url(fc.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.ma {
+    position: absolute;
+    margin-bottom: 0;
+    /* margin-right: 66.67%;
+    margin-top: 66.67%; */
+    font-size: 50px;
+    bottom: 0%;
+    left: 0;
+    border: 20px;
+    border-style: solid;
+    border-color: black;
+    padding: 82px 100px 82px 100px;
+}
+
+.ma:hover {
+    color: transparent;
+    background-image: url(ma.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.pfc {
+    position: absolute;
+    margin-bottom: 0;
+    margin-left: 66.8%;
+    margin-top: 66%;
+    font-size: 50px;
+    bottom: 0%;
+    right: 0;
+    border: 20px;
+    border-style: solid;
+    border-color: black;
+    padding: 53px 50px 53px 50px;
+}
+
+.pfc:hover {
+    color: transparent;
+    background-image: url(pfc.png);
+    background-size: cover;
+    background-position: center;
+}
