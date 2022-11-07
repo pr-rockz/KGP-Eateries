@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    position: absolute;
+    margin-top: 0%;
+    width: 110%;
+    opacity: 0.3;
+    background-repeat: no-repeat;
+}
+
+.iitkgp {
+    position: absolute;
+    margin-top: 1vh;
+    margin-right: 50vh;
+    margin-left: 1vh;
+    color: red;
+}
+
+.eateries {
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 50vh;
+    color: red;
+}
+
+.foot {
+    position: absolute;
+    margin-left: 1vh;
+    bottom: 1%;
+}
+
+.auto-input1 {
+    color: blue;
+}
+
+.auto-input2 {
+    color: purple;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(1vh);
+    transform: translateX(-100%);
+    transition: all 3s;
+}
+
+.hidden2 {
+    opacity: 0;
+    filter: blur(1vh);
+    transform: translateX(100%);
+    transition: all 3s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0%);
+}
+
+.eat {
+    position: absolute;
+    width: 28vh;
+    margin-top: 55vh;
+    margin-left: 7vw;
+}
+
+.kgp {
+    position: absolute;
+    width: 35vh;
+    margin-top: 10vh;
+    margin-left: 78vw;
+}

@@ -5,17 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Priyanshu Ranjan">
-    <meta name="description" content="The about page of KGP Eateries">
     <title>About</title>
+    <link rel="stylesheet" href="css/about.css">
     <link rel="icon" href="images/menu.jpeg">
+    <script defer src="app.js"></script>
 </head>
 
 <body>
-    <div class="all">
-        <h1>About IITKGP</h1>
+    <img src="css/about_background_image.jpeg" class="image">
+    <div class="iitkgp">
+        <h1 class="hidden">About IITKGP</h1><br>
+        <h3><span class="auto-input1"></span></h3>
     </div>
-    <p>&copy;Copyright - 2022</p>
+    <img src="images/about_kgp.png" class="kgp hidden2">
+    <div class="eateries">
+        <h1 class="hidden">About Eateries</h1><br>
+        <h3><span class="auto-input2"></span></h3>
+    </div>
+    <img src="images/about_eating.png" class="eat hidden">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input1", {
+            strings: ["Indian Institute of Technology Kharagpur (IIT Kharagpur) is a public research university established by the Government of India in Kharagpur, West Bengal, India. Established in 1951, the institute is the first of the IITs to be established and is recognised as an Institute of National Importance. In 2019 it was awarded the status of Institute of Eminence by the Government of India.The motto of IIT Kharagpur is 'Yogah Karmasu Kaushalam'. This literally translates to 'Excellence in action is Yoga', essentially implying that doing your work well is (true) yoga. This can be traced to Sri Krishna's discourse with Arjuna in the Bhagavad Gita. The quote, in the larger context of the Gita, urges man to acquire equanimity because a mind of equanimity allows a man to shed distracting thoughts of the effects of his deeds and concentrate on the task before him. Equanimity is the source of perfection in Karmic endeavours that leads to Salvation."],
+            typeSpeed: 0,
+            backSpeed: 300,
+            loop: false
+        })
+    </script>
+    <script>
+        var typed = new Typed(".auto-input2", {
+            strings: ["Numerous in-house eateries serve the demands of residents. Some eateries are open overnight, while some serve hot food from early morning itself to best cater to the peoples’ convenience. Within campus are restaurants like Billoos (famous for its Punjabi food), Dreamland-Sahara, Hot Bite, Heritage etc. Each Hall of Residence has its own Canteen apart from the mess. The KGP campus also boasts of retail eatery chains such as Cafe Coffee Day, Baskin Robbins and Subway. One can always visit Dominos, Flavours and Park Restaurants outside the campus. IIT KGP has its own Food Monitoring Committee that ensures proper quality food is being served hygienically at fair prices at all campus eateries.The FMC conducts raids on complaints, takes feedback, publishes annual reviews, fines and looks after these eating destinations. IIT Kharagpur has a self - sustained market(Tech market) within campus where one can get a wide variety of evening snacks and sweets."],
+            typeSpeed: 0,
+            backSpeed: 300,
+            loop: false
+        })
+    </script>
+    <p class="foot"><a href="index.html">Back to Home Page</a><br>&copy;Copyright - 2022</p>
 </body>
 
 </html>
